@@ -6,7 +6,7 @@ const Square = (props) => {
   }
   return (
     <>
-    <div className="square" onClick={handleClick}>{props.value}</div>
+    <div className="square" onClick={handleClick}>{props.value }</div>
     </>
   )
 }
